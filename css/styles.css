@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+}
+.profile--card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background-color: hsl(185, 75%, 39%);
+}
+.profile--card-image_wrapper {
+	width: 100%;
+	max-width: 450px;
+	text-align: center;
+	background-color: #fff;
+	color: #333;
+	border-radius: 20px;
+	box-shadow: 3px 2px 10px 1px #333;
+}
+.profile--card_picture_cover {
+	display: block;
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.profile--card_picture {
+	width: 140px;
+	border-radius: 50%;
+	margin-top: -70px;
+	border: 5px solid #fff;
+}
+.profile--card_name {
+	font-weight: 700;
+	margin-top: 10px;
+}
+.profile--card_age {
+	font-size: 25px;
+	font-weight: 400;
+	margin-left: 5px;
+	color: hsl(227, 10%, 46%);
+}
+.profile--card_location {
+	font-weight: 400;
+	font-size: 19px;
+	color: hsl(227, 10%, 46%);
+	margin-top: 5px;
+	margin-bottom: 35px;
+}
+.profile--card_info {
+	margin: 30px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+.profile--card_followers {
+	font-weight: 700;
+	font-size: 20px;
+}
+.profile--card_followers span {
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
